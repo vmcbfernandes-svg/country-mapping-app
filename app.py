@@ -132,6 +132,12 @@ st.markdown("""
         font-weight: 500 !important;
     }
     
+    /* Multiselect - add label styling */
+    .stMultiSelect label {
+        color: #393939 !important;
+        font-weight: 500 !important;
+    }
+    
     /* Cards and containers */
     .stMarkdown {
         color: #161616;
