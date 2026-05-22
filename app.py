@@ -320,7 +320,8 @@ with col4:
     else:
         selected_countries = st.multiselect(
             "Select Country",
-            options=countries
+            options=countries,
+            help="Select one or more countries to view details or compare"
         )
 
 st.markdown("---")
