@@ -13,7 +13,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy application files
 COPY app.py .
 COPY data_processor.py .
-COPY "Country Mapping File 28April2026 vs1.xlsx" .
+COPY ["Country Mapping File 28April2026 vs1.xlsx", "."]
 
 # Expose Streamlit default port
 EXPOSE 8501
